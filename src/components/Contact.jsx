@@ -29,7 +29,7 @@ const Contact = () => {
         >
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box" />
-          <input type="hidden" name="_next" value="http://localhost:5173/thank-you" />
+          <input type="hidden" name="_next" value="https://rayyan-resume.vercel.app/thank-you" />
 
           {/* Name */}
           <input

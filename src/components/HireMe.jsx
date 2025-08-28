@@ -46,7 +46,7 @@ const HireMe = () => {
               className="space-y-4 bg-white/90 dark:bg-white/5 p-6 rounded-xl shadow-lg backdrop-blur"
             >
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="http://localhost:5173/thank-you"/>
+              <input type="hidden" name="_next" value="https://rayyan-resume.vercel.app/thank-you"/>
 
               <input
                 type="text"
