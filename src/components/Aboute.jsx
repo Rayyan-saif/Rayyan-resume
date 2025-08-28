@@ -69,7 +69,7 @@ const Aboute = () => {
             </a>
 
             <a
-              href="/Rayyan_Resume.pdf"
+              href="/RayyanResume.pdf"
               download
               className="px-6 py-3 border border-blue-600 text-blue-600 
               hover:text-white hover:bg-blue-600 rounded-lg font-semibold 
