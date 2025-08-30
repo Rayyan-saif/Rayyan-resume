@@ -59,20 +59,31 @@ const Projects = () => {
       dark:from-black dark:via-gray-900 border-t border-gray-700 dark:to-black text-gray-900 dark:text-white font-body"
     >
       <div className="max-w-6xl mx-auto text-center">
-        <h2
-          className="text-5xl font-heading font-extrabold mb-4 text-blue-900 dark:text-cyan-400"
-          data-aos="fade-down"
-          data-aos-delay="100"
-        >
-          Featured <span className="text-blue-500 dark:text-cyan-300">Projects</span>
-        </h2>
-        <p
-          className="dark:text-gray-300 text-gray-700 text-[18px] mb-10 font-mono mx-auto max-w-3xl"
-          data-aos="fade-down"
-          data-aos-delay="200"
-        >
-          A showcase of my top 6 hand-picked projects that highlight my expertise in modern web development. Each project is built with clean code, optimized performance, and user-friendly design.
-        </p>
+      <h2
+      className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold mb-4 
+                text-blue-900 dark:text-cyan-400 text-center md:text-left"
+      data-aos="fade-down"
+      data-aos-delay="100"
+    >
+      Featured <span className="text-blue-500 dark:text-cyan-300">Projects</span>
+    </h2>
+
+    <p
+      className="text-sm sm:text-base md:text-lg lg:text-xl 
+                dark:text-gray-300 text-gray-700 mb-8 sm:mb-10 
+                font-mono mx-auto md:mx-0 
+                max-w-xl md:max-w-2xl lg:max-w-3xl 
+                text-center md:text-left 
+                leading-relaxed sm:leading-loose"
+      data-aos="fade-down"
+      data-aos-delay="200"
+    >
+      A showcase of my top 6 hand-picked projects that highlight my expertise in
+      modern web development. Each project is built with clean code, optimized
+      performance, and user-friendly design.
+    </p>
+
+
 
         {/* Project Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 cursor-pointer pb-10">

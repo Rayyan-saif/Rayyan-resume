@@ -115,20 +115,27 @@ const AllProjects = () => {
       dark:from-black dark:via-gray-900 border-gray-700 border-t dark:to-black text-gray-900 dark:text-white font-body"
     >
       <div className="max-w-6xl mx-auto text-center">
-        <h2
-          className="text-5xl font-heading font-extrabold mb-4"
-          data-aos="fade-down"
-          data-aos-delay="100"
-        >
-          All <span className="text-blue-500">Projects</span>
-        </h2>
-        <p
-          className="dark:text-gray-300 text-gray-700 text-[18px] mb-10 font-mono "
-          data-aos="fade-down"
-          data-aos-delay="200"
-        >
-          Blending creativity and code to deliver sleek, scalable, and impactful <br/> web projects with React,Tailwind CSS,HTML,CSS & JS.
-        </p>
+       <h2
+  className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold mb-4 text-center md:text-left"
+  data-aos="fade-down"
+  data-aos-delay="100"
+>
+  All <span className="text-blue-500">Projects</span>
+</h2>
+
+<p
+  className="text-sm sm:text-base md:text-lg lg:text-xl dark:text-gray-300 text-gray-700 mb-8 sm:mb-10 font-mono max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto text-center md:text-left leading-relaxed sm:leading-loose"
+  data-aos="fade-down"
+  data-aos-delay="200"
+>
+  Blending creativity and code to deliver sleek, scalable, and impactful web
+  projects with <span className="font-semibold text-blue-500">React</span>,{" "}
+  <span className="font-semibold text-blue-500">Tailwind CSS</span>,{" "}
+  <span className="font-semibold text-blue-500">HTML</span>,{" "}
+  <span className="font-semibold text-blue-500">CSS</span> &{" "}
+  <span className="font-semibold text-blue-500">JS</span>.
+</p>
+
 
         {/* Project Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 cursor-pointer">

@@ -42,20 +42,21 @@ const Aboute = () => {
           {/* Animated Underline */}
           <div className="h-1 w-32 bg-blue-600 rounded mb-6 mx-auto md:mx-0 animate-pulse"></div>
 
-          <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-4">
-            I’m <span className="text-blue-500 font-semibold">Rayyan Saifee</span>, 
-            a creative and self-taught <span className="text-blue-500 font-semibold">Frontend Developer</span>{" "}
-            from Pakistan. I specialize in crafting modern, responsive, and 
-            engaging websites using <span className="text-blue-500 font-semibold">React.js</span> and{" "}
-            <span className="text-blue-500 font-semibold">Tailwind CSS</span>.
-          </p>
+          <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-200 leading-relaxed sm:leading-loose mb-4 max-w-2xl mx-auto md:mx-0 text-center md:text-left">
+          I’m <span className="text-blue-500 font-semibold">Rayyan Saifee</span>, 
+          a creative and self-taught <span className="text-blue-500 font-semibold">Frontend Developer</span>{" "}
+          from Pakistan. I specialize in crafting modern, responsive, and 
+          engaging websites using <span className="text-blue-500 font-semibold">React.js</span> and{" "}
+          <span className="text-blue-500 font-semibold">Tailwind CSS</span>.
+        </p>
 
-          <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-            My mission is to deliver seamless user experiences with clean code, 
-            eye-catching UI, and lightning-fast performance. Whether it’s for 
-            individuals, startups, or businesses — I love building digital 
-            solutions that truly make an impact.
-          </p>
+        <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed sm:leading-loose mb-6 max-w-2xl mx-auto md:mx-0 text-center md:text-left">
+          My mission is to deliver seamless user experiences with clean code, 
+          eye-catching UI, and lightning-fast performance. Whether it’s for 
+          individuals, startups, or businesses — I love building digital 
+          solutions that truly make an impact.
+        </p>
+
 
           {/* Buttons */}
           <div className="flex flex-wrap justify-center md:justify-start items-center gap-5">

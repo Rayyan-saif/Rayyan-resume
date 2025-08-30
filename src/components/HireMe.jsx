@@ -12,7 +12,7 @@ const HireMe = () => {
     <section className="min-h-screen bg-gradient-to-br from-white via-blue-50 to-white dark:from-black dark:via-[#0a0f1c] dark:to-black px-6 py-20">
       <div className="max-w-5xl mx-auto" data-aos="fade-up">
         {/* Heading */}
-        <h1 className="text-4xl md:text-5xl font-extrabold text-center">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-center dark:text-white">
           <span className="text-blue-600 dark:text-cyan-400">Hire</span> Me
         </h1>
         <p className="text-center text-gray-700 dark:text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
@@ -40,14 +40,12 @@ const HireMe = () => {
 
           {/* Right: Contact Form */}
           <div data-aos="fade-left" className="-mt-5">
-            <form
-              action="https://formsubmit.co/rayyansaifee02@gmail.com"
-              method="POST"
-              className="space-y-4 bg-white/90 dark:bg-white/5 p-6 rounded-xl shadow-lg backdrop-blur"
+          <form
+            action="https://formspree.io/f/mnqekxyz"
+            method="POST"
+            className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2"
+            data-aos="fade-up"
             >
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="https://rayyan-resume.vercel.app/thank-you"/>
-
               <input
                 type="text"
                 name="name"

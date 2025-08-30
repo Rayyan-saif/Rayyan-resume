@@ -32,15 +32,25 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
 
         {/* Section Heading */}
-        <div data-aos="fade-up" className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-extrabold dark:text-white text-blue-900">
+        <div data-aos="fade-up" className="mb-16 text-center md:text-left">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold 
+            dark:text-white text-blue-900">
             My <span className="text-blue-500 dark:text-cyan-400">Services</span>
           </h2>
-          <p className="dark:text-gray-300 text-gray-600 mt-4 text-[20px] mx-auto max-w-2xl">
-            I help businesses and individuals stand out with visually appealing and <br /> high-performance websites.
+
+          {/* <div className="w-24 h-1 bg-blue-500 dark:bg-cyan-400 mt-6 rounded mx-auto md:mx-0">
+          </div> */}
+
+          <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl 
+            dark:text-gray-300 text-gray-600 leading-relaxed sm:leading-loose 
+            mx-auto md:mx-0 max-w-xl md:max-w-2xl">
+            I help businesses and individuals stand out with visually appealing and{" "}
+            <br className="hidden sm:block" /> 
+            high-performance websites.
           </p>
-          <div className="w-24 h-1 bg-blue-500 dark:bg-cyan-400 mx-auto mt-6 rounded"></div>
+
         </div>
+
 
         {/* Cards */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 cursor-pointer">
