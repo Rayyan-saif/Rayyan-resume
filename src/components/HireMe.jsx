@@ -41,7 +41,7 @@ const HireMe = () => {
           {/* Right: Contact Form */}
           <div data-aos="fade-left" className="-mt-5">
           <form
-            action="https://formspree.io/f/mnqekxyz"
+            action="https://formspree.io/f/xyzdwgwo"
             method="POST"
             className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2"
             data-aos="fade-up"

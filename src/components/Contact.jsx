@@ -35,8 +35,8 @@ const Contact = () => {
         </div> 
 
         {/* Form */}
-        <form
-        action="https://formspree.io/f/mnqekxyz"
+        <form 
+        action="https://formspree.io/f/xyzdwgwo"
         method="POST"
         className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2"
         data-aos="fade-up"
