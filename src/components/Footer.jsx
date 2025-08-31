@@ -3,7 +3,9 @@ import {
   FaFacebook,
   FaGithub,
   FaLinkedin,
+  FaPhone,
 } from "react-icons/fa";
+import { BiEnvelope } from 'react-icons/bi'
 import { SiTailwindcss, SiVite, SiVercel } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import AOS from "aos";
@@ -42,14 +44,14 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-blue-400">Quick Links</h2>
           <ul className="space-y-3 text-gray-300">
-            {["Aboute", "Skills", "AllProjects", "contact"].map((link) => (
+            {["Aboute", "Skills", "AllProjects","Services", "contact"].map((link) => (
               <li key={link}>
                 <a
                   href={`/${link}`}
                   className="inline-block hover:text-cyan-400 relative group transition"
                 >
                   {link.charAt(0).toUpperCase() + link.slice(1)}
-                  <span className="block h-[2px] w-0 bg-cyan-400 group-hover:w-full transition-all duration-300 mt-1"></span>
+                  <span className="block h-[2px] w-0 bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
                 </a>
               </li>
             ))}
@@ -85,6 +87,12 @@ const Footer = () => {
               <FaFacebook />
             </a>
           </div>
+        <div className="flex items-center">
+          <FaPhone className="text-[10px] mt-2 mr-2 rotate-90"/><p className="pt-2 font-heading">03248188272</p>
+        </div>
+          <div className="flex items-center">
+          <BiEnvelope className="text-[13px] mt-3 mr-2"/><p className="pt-2 font-heading">rayyansaifee02@gmail.com</p>
+        </div>
         </div>
       </div>
 
