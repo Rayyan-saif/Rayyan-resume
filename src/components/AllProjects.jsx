@@ -12,7 +12,7 @@ const webProjects = [
   },
   {
     id: 2,
-    image: "/portfolio/design3.png",
+    image: "/portfolio/web2 (2).png",
     title: "Service Website",
     liveUrl: "https://virtunests.com",
     p: "This website is live",

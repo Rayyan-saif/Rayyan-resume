@@ -78,20 +78,19 @@ const Footer = () => {
             >
               <FaLinkedin />
             </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white/10 p-3 rounded-full hover:text-cyan-400 hover:bg-white/20 transition transform hover:scale-110"
-            >
-              <FaFacebook />
-            </a>
           </div>
-        <div className="flex items-center">
-          <FaPhone className="text-[10px] mt-2 mr-2 rotate-90"/><p className="pt-2 font-heading">03248188272</p>
+        <div className="flex">
+          <a className="flex items-center" href="https://wa.me/923111040521" target="_blank">
+          <FaPhone className="text-[15px] mt-2 mr-2 rotate-90"/>
+          <p className="pt-2 font-heading">0311-1040521</p>
+          </a>
         </div>
-          <div className="flex items-center">
-          <BiEnvelope className="text-[13px] mt-3 mr-2"/><p className="pt-2 font-heading">rayyansaifee02@gmail.com</p>
+
+        <div>
+          <a className="flex items-center" href="https://mail.google.com/mail/?view=cm&fs=1&to=rayyansaifee02@gmail.com"  target="_blank" rel="noopener noreferrer">
+          <BiEnvelope className="text-[20px] mt-3 mr-2"/>
+          <p className="pt-2 font-heading">rayyansaifee02@gmail.com</p>
+          </a>
         </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Picture from "../assets/Rayyan.png";
+import Picture from "../assets/SMART-removebg.png";
 
 const Aboute = () => {
   useEffect(() => {
@@ -43,11 +43,10 @@ const Aboute = () => {
           <div className="h-1 w-32 bg-blue-600 rounded mb-6 mx-auto md:mx-0 animate-pulse"></div>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-200 leading-relaxed sm:leading-loose mb-4 max-w-2xl mx-auto md:mx-0 text-center md:text-left">
-          I’m <span className="text-blue-500 font-semibold">Rayyan Saifee</span>, 
-          a creative and self-taught <span className="text-blue-500 font-semibold">Frontend Developer</span>{" "}
-          from Pakistan. I specialize in crafting modern, responsive, and 
-          engaging websites using <span className="text-blue-500 font-semibold">React.js</span> and{" "}
-          <span className="text-blue-500 font-semibold">Tailwind CSS</span>.
+
+          I’m <span className="text-blue-500 font-semibold">Rayyan Saifee</span>, a creative and self-taught <span className="text-blue-500 font-semibold">Frontend Developer</span>. I focus on crafting modern, responsive, and user-friendly websites using {""}
+          <span className="text-blue-500 font-semibold">React.js</span> and {""}
+          <span className="text-blue-500 font-semibold">Tailwind CSS</span> bringing together clean design and seamless functionality to deliver engaging digital experiences.
         </p>
 
         <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed sm:leading-loose mb-6 max-w-2xl mx-auto md:mx-0 text-center md:text-left">
@@ -70,8 +69,8 @@ const Aboute = () => {
             </a>
 
             <a
-              href="/RayyanResume.pdf"
-              download="Rayyan-Resume.pdf"
+              href="/Rayyan_Resume.pdf"
+              download="RayyanResume.pdf"
               className="px-6 py-3 border border-blue-600 text-blue-600 
               hover:text-white hover:bg-blue-600 rounded-lg font-semibold 
               transition-all duration-300 hover:scale-105"
