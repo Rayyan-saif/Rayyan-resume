@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import HireMe from "./components/HireMe";
 import DarkModeToggle from "./components/DarkModeToggle";
 import AllProjects from "./components/AllProjects";
+import Testimonial from "./components/Testimonial";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Route path="/Aboute" element={<Aboute />} />
       <Route path="/Skills" element={<Skills />} />
       <Route path="/Projects" element={<Projects />} />
+      <Route path="/Testimonial" element={<Testimonial />} />
       <Route path="/AllProjects" element={<AllProjects/>} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/thank-you" element={<ThankYou />} />

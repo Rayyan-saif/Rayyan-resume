@@ -35,11 +35,11 @@ const Footer = () => {
     <footer className="relative bg-gradient-to-tr from-black via-[#0a0f1c] to-black text-white pt-20 pb-6 px-6 overflow-hidden">
       {/* SVG wave background */}
       <svg
-        className="absolute top-0 left-0 w-full rotate-180"
+        className="absolute top-20 left-0 w-full rotate-180"
         viewBox="0 0 1440 320"
       >
         <path
-          fill="#0a0f1c"
+          fill="#0e1425"
           fillOpacity="1"
           d="M0,32L60,58.7C120,85,240,139,360,144C480,149,600,107,720,106.7C840,107,960,149,1080,160C1200,171,1320,149,1380,138.7L1440,128V0H0Z"
         ></path>
@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold text-cyan-400">Rayyan Saifee</h1>
           <p className="text-gray-400 leading-relaxed">
-            Crafting premium UIs with React, Tailwind & modern web tools.
+            Designing and developing premium, highly responsive user interfaces using React and Tailwind CSS, leveraging modern web development tools and best practices to create visually stunning, performant, and user-friendly web applications.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-blue-400">Quick Links</h2>
           <ul className="space-y-3 text-gray-300">
-            {["Aboute", "Skills", "AllProjects","Services", "contact"].map((link) => (
+            {["Aboute", "Skills", "AllProjects","Services","Testimonial", "contact"].map((link) => (
               <li key={link}>
                 <a
                   href={`/${link}`}
