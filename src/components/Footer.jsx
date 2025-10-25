@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
 import {
+  FaCss3Alt,
   FaFacebook,
+  FaGitAlt,
   FaGithub,
+  FaHtml5,
+  FaJsSquare,
   FaLinkedin,
   FaPhone,
 } from "react-icons/fa";
@@ -10,6 +14,17 @@ import { SiTailwindcss, SiVite, SiVercel } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+const icons = [
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  SiTailwindcss,
+  SiVite,
+  SiVercel,
+  FaGitAlt
+];
 
 const Footer = () => {
   useEffect(() => {
@@ -114,7 +129,7 @@ const Footer = () => {
 
       {/* Tech Stack Icons */}
       <div className="relative z-10 flex justify-center gap-6 mt-6 text-2xl text-white/70">
-        {[FaReact, SiTailwindcss, SiVite, SiVercel].map((Icon, idx) => (
+        {icons.map((Icon, idx) => (
           <span key={idx} className="hover:text-cyan-400 transition">
             <Icon />
           </span>

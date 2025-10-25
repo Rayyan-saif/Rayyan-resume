@@ -6,6 +6,7 @@ import Projects from '../Projects'
 import Contact from '../Contact'
 import Services from '../Services'
 import DarkModeToggle from '../DarkModeToggle'
+import Testimonial from '../Testimonial'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Skills/>
         <Services/>
         <Projects/>
+        <Testimonial/>
         <Contact/>
     </main>
   )
