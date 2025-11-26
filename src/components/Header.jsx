@@ -31,7 +31,7 @@ const Header = () => {
       <a href="/" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
         Home
       </a>
-      <a href="/Aboute" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
+      <a href="/About" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
         About Me
       </a>
       <a href="/Services" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
@@ -91,7 +91,7 @@ const Header = () => {
       <a href="/" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
         Home
       </a>
-      <a href="/Aboute" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
+      <a href="/About" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>
         About Me
       </a>
       <a href="/Services" className={`hover:${darkMode ? "text-blue-300" : "text-blue-500"} transition`}>

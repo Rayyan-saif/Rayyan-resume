@@ -59,7 +59,7 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-blue-400">Quick Links</h2>
           <ul className="space-y-3 text-gray-300">
-            {["Aboute", "Skills", "AllProjects","Services","Testimonial", "contact"].map((link) => (
+            {["About", "Skills", "AllProjects","Services","Testimonial", "contact"].map((link) => (
               <li key={link}>
                 <a
                   href={`/${link}`}

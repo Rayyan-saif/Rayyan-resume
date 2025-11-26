@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Aboute from './components/Aboute'
+import About from './components/About'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -25,7 +25,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Hero" element={<Hero />} />
-      <Route path="/Aboute" element={<Aboute />} />
+      <Route path="/About" element={<About />} />
       <Route path="/Skills" element={<Skills />} />
       <Route path="/Projects" element={<Projects />} />
       <Route path="/Testimonial" element={<Testimonial />} />

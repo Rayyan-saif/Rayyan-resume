@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Picture from "../assets/SMART-removebg.png";
 
-const Aboute = () => {
+const About = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -84,4 +84,4 @@ const Aboute = () => {
   );
 };
 
-export default Aboute;
+export default About;
